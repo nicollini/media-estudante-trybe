@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Médias</title>
+        <style>  
+        body { font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
+        .container { border: 1px solid #ccc; padding: 20px; border-radius: 8px; width: 300px; }
+        input { width: 100%; margin-bottom: 10px; padding: 8px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background-color: #2fc18c; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #28a176; }
+        #resultado { margin-top: 15px; font-weight: bold; }     
+        
+        .btn-limpar { background-color: #f44336; margin-top: 10px; }
+        .btn-limpar:hover { background-color: #d32f2f; /* um vermelho mais escuro ao passar o mouse */}
+        </style>
+    </head>
+    <body>
+        <div class="calculator">
+            <h2>Calculadora de Médias</h2>
+            <div id="inputs">
+                <input type="number" placeholder="Insira a nota" id="nota">
+                <button class="btn" onclick="AdicionarNota()">Adicionar Nota</button>
+            </div>
+            <ul id="notas"></ul>
+            <button class="btn" onclick="CalcularMedia()">Calcular Média</button>
+            <button class="btn btn-limpar" onclick="LimparTudo()">LimparTudo</button>
+            <p id="resultado"></p>
+        </div>
+
+        <script src="./solucao-algoritmo.js"></script>
+    </body>
+</html>
