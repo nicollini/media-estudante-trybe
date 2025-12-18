@@ -22,7 +22,7 @@ Este projeto é uma ferramenta simples e funcional desenvolvida para calcular a 
 
 1. Clone este repositório:
    ```bash
-   git clone github.com
+  https://github.com/nicollini/media-estudante-trybe
 
 2. Abra o arquivo index.html em qualquer navegador moderno.
 
